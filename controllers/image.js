@@ -31,6 +31,7 @@ module.exports = {
             ]
         };
         res.render('image', viewModel);
+
     },
     create: function(req, res) {
         res.send('The image:create POST controller');
